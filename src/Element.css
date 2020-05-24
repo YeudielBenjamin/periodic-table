@@ -1,0 +1,9 @@
+.Element {
+    display: flex;
+    align-items: center;
+    padding: 4px;
+    background-color: #DDDDDD;
+    color: #404040;
+    border-radius: 5px;
+    height: 125px;
+}
