@@ -10,13 +10,13 @@ class TableGrid extends React.Component {
 
     render() {
         return (
-            <ul className="Grid">
+            <ol className="Grid">
                 {
                     elements.results.bindings.map(obj => 
-                        <Element key={obj.element.value} name={obj.symbol.value}></Element>
+                        <Element key={obj.element.value} element={obj}></Element>
                     )
                 }
-            </ul>
+            </ol>
         )
     }
 }
