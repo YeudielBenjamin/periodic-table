@@ -6,3 +6,378 @@
     padding: 0;
     list-style-type: none;
 }
+
+@media all and (min-width: 821px) {
+    .Grid {
+        grid-template-columns: repeat(18, 1fr);
+        grid-template-rows: auto;
+        grid-template-areas: 
+            'H  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  He'
+            'Li Be .  .  .  .  .  .  .  .  .  .  B  C  N  O  F  Ne'
+            'Na Mg .  .  .  .  .  .  .  .  .  .  Al Si P  S  Cl Ar'
+            'K  Ca Sc Ti V  Cr Mn Fe Co Ni Cu Zn Ga Ge As Se Br Kr'
+            'Rb Sr Y  Zr Nb Mo Tc Ru Rh Pd Ag Cd In Sn Sb Te I  Xe'
+            'Cs Ba .  Hf Ta W  Re Os Ir Pt Au Hg Tl Pb Bi Po At Rn'
+            'Fr Ra .  Rf Db Sg Bh Hs Mt Ds Rg Cn Nh Fl Mc Lv Ts Og'
+            'Uue Ubn . Uth Uts Uto Ute Uqn Uqu Uqb Uqt Uqq Uqp Uqh Uqs Uqo Uqe Upn'
+            'Upu Upb . . . . . . . . . . . . . . . .'
+            '.  .  .  La Ce Pr Nd Pm Sm Eu Gd Tb Dy Ho Er Tm Yb Lu'
+            '.  .  .  Ac Th Pa U  Np Pu Am Cm Bk Cf Es Fm Md No Lr'
+            '.  .  .  Ubu Ubb Ubt Ubq Ubp Ubh Ubs Ubo Ube Utn Utu Utb Utt Utq Utp'
+            '.  .  .  Upt Upq Upp Uph Ups Upo Upe Uhn Uhq Uhp Uhs Uho Uhe Usb Ust'
+            ;
+    }
+
+    .Grid > li:nth-child(1) {
+        grid-area: H;
+    }.Grid > li:nth-child(2) {
+        grid-area: He;
+    }.Grid > li:nth-child(3) {
+        grid-area: Li;
+    }.Grid > li:nth-child(4) {
+        grid-area: Be;
+    }.Grid > li:nth-child(5) {
+        grid-area: B;
+    }.Grid > li:nth-child(6) {
+        grid-area: C;
+    }.Grid > li:nth-child(7) {
+        grid-area: N;
+    }.Grid > li:nth-child(8) {
+        grid-area: O;
+    }.Grid > li:nth-child(9) {
+        grid-area: F;
+    }.Grid > li:nth-child(10) {
+        grid-area: Ne;
+    }.Grid > li:nth-child(11) {
+        grid-area: Na;
+    }.Grid > li:nth-child(12) {
+        grid-area: Mg;
+    }.Grid > li:nth-child(13) {
+        grid-area: Al;
+    }.Grid > li:nth-child(14) {
+        grid-area: Si;
+    }.Grid > li:nth-child(15) {
+        grid-area: P;
+    }.Grid > li:nth-child(16) {
+        grid-area: S;
+    }.Grid > li:nth-child(17) {
+        grid-area: Cl;
+    }.Grid > li:nth-child(18) {
+        grid-area: Ar;
+    }.Grid > li:nth-child(19) {
+        grid-area: K;
+    }.Grid > li:nth-child(20) {
+        grid-area: Ca;
+    }.Grid > li:nth-child(21) {
+        grid-area: Sc;
+    }.Grid > li:nth-child(22) {
+        grid-area: Ti;
+    }.Grid > li:nth-child(23) {
+        grid-area: V;
+    }.Grid > li:nth-child(24) {
+        grid-area: Cr;
+    }.Grid > li:nth-child(25) {
+        grid-area: Mn;
+    }.Grid > li:nth-child(26) {
+        grid-area: Fe;
+    }.Grid > li:nth-child(27) {
+        grid-area: Co;
+    }.Grid > li:nth-child(28) {
+        grid-area: Ni;
+    }.Grid > li:nth-child(29) {
+        grid-area: Cu;
+    }.Grid > li:nth-child(30) {
+        grid-area: Zn;
+    }.Grid > li:nth-child(31) {
+        grid-area: Ga;
+    }.Grid > li:nth-child(32) {
+        grid-area: Ge;
+    }.Grid > li:nth-child(33) {
+        grid-area: As;
+    }.Grid > li:nth-child(34) {
+        grid-area: Se;
+    }.Grid > li:nth-child(35) {
+        grid-area: Br;
+    }.Grid > li:nth-child(36) {
+        grid-area: Kr;
+    }.Grid > li:nth-child(37) {
+        grid-area: Rb;
+    }.Grid > li:nth-child(38) {
+        grid-area: Sr;
+    }.Grid > li:nth-child(39) {
+        grid-area: Y;
+    }.Grid > li:nth-child(40) {
+        grid-area: Zr;
+    }.Grid > li:nth-child(41) {
+        grid-area: Nb;
+    }.Grid > li:nth-child(42) {
+        grid-area: Mo;
+    }.Grid > li:nth-child(43) {
+        grid-area: Tc;
+    }.Grid > li:nth-child(44) {
+        grid-area: Ru;
+    }.Grid > li:nth-child(45) {
+        grid-area: Rh;
+    }.Grid > li:nth-child(46) {
+        grid-area: Pd;
+    }.Grid > li:nth-child(47) {
+        grid-area: Ag;
+    }.Grid > li:nth-child(48) {
+        grid-area: Cd;
+    }.Grid > li:nth-child(49) {
+        grid-area: In;
+    }.Grid > li:nth-child(50) {
+        grid-area: Sn;
+    }.Grid > li:nth-child(51) {
+        grid-area: Sb;
+    }.Grid > li:nth-child(52) {
+        grid-area: Te;
+    }.Grid > li:nth-child(53) {
+        grid-area: I;
+    }.Grid > li:nth-child(54) {
+        grid-area: Xe;
+    }.Grid > li:nth-child(55) {
+        grid-area: Cs;
+    }.Grid > li:nth-child(56) {
+        grid-area: Ba;
+    }.Grid > li:nth-child(57) {
+        grid-area: La;
+    }.Grid > li:nth-child(58) {
+        grid-area: Ce;
+    }.Grid > li:nth-child(59) {
+        grid-area: Pr;
+    }.Grid > li:nth-child(60) {
+        grid-area: Nd;
+    }.Grid > li:nth-child(61) {
+        grid-area: Pm;
+    }.Grid > li:nth-child(62) {
+        grid-area: Sm;
+    }.Grid > li:nth-child(63) {
+        grid-area: Eu;
+    }.Grid > li:nth-child(64) {
+        grid-area: Gd;
+    }.Grid > li:nth-child(65) {
+        grid-area: Tb;
+    }.Grid > li:nth-child(66) {
+        grid-area: Dy;
+    }.Grid > li:nth-child(67) {
+        grid-area: Ho;
+    }.Grid > li:nth-child(68) {
+        grid-area: Er;
+    }.Grid > li:nth-child(69) {
+        grid-area: Tm;
+    }.Grid > li:nth-child(70) {
+        grid-area: Yb;
+    }.Grid > li:nth-child(71) {
+        grid-area: Lu;
+    }.Grid > li:nth-child(72) {
+        grid-area: Hf;
+    }.Grid > li:nth-child(73) {
+        grid-area: Ta;
+    }.Grid > li:nth-child(74) {
+        grid-area: W;
+    }.Grid > li:nth-child(75) {
+        grid-area: Re;
+    }.Grid > li:nth-child(76) {
+        grid-area: Os;
+    }.Grid > li:nth-child(77) {
+        grid-area: Ir;
+    }.Grid > li:nth-child(78) {
+        grid-area: Pt;
+    }.Grid > li:nth-child(79) {
+        grid-area: Au;
+    }.Grid > li:nth-child(80) {
+        grid-area: Hg;
+    }.Grid > li:nth-child(81) {
+        grid-area: Tl;
+    }.Grid > li:nth-child(82) {
+        grid-area: Pb;
+    }.Grid > li:nth-child(83) {
+        grid-area: Bi;
+    }.Grid > li:nth-child(84) {
+        grid-area: Po;
+    }.Grid > li:nth-child(85) {
+        grid-area: At;
+    }.Grid > li:nth-child(86) {
+        grid-area: Rn;
+    }.Grid > li:nth-child(87) {
+        grid-area: Fr;
+    }.Grid > li:nth-child(88) {
+        grid-area: Ra;
+    }.Grid > li:nth-child(89) {
+        grid-area: Ac;
+    }.Grid > li:nth-child(90) {
+        grid-area: Th;
+    }.Grid > li:nth-child(91) {
+        grid-area: Pa;
+    }.Grid > li:nth-child(92) {
+        grid-area: U;
+    }.Grid > li:nth-child(93) {
+        grid-area: Np;
+    }.Grid > li:nth-child(94) {
+        grid-area: Pu;
+    }.Grid > li:nth-child(95) {
+        grid-area: Am;
+    }.Grid > li:nth-child(96) {
+        grid-area: Cm;
+    }.Grid > li:nth-child(97) {
+        grid-area: Bk;
+    }.Grid > li:nth-child(98) {
+        grid-area: Cf;
+    }.Grid > li:nth-child(99) {
+        grid-area: Es;
+    }.Grid > li:nth-child(100) {
+        grid-area: Fm;
+    }.Grid > li:nth-child(101) {
+        grid-area: Md;
+    }.Grid > li:nth-child(102) {
+        grid-area: No;
+    }.Grid > li:nth-child(103) {
+        grid-area: Lr;
+    }.Grid > li:nth-child(104) {
+        grid-area: Rf;
+    }.Grid > li:nth-child(105) {
+        grid-area: Db;
+    }.Grid > li:nth-child(106) {
+        grid-area: Sg;
+    }.Grid > li:nth-child(107) {
+        grid-area: Bh;
+    }.Grid > li:nth-child(108) {
+        grid-area: Hs;
+    }.Grid > li:nth-child(109) {
+        grid-area: Mt;
+    }.Grid > li:nth-child(110) {
+        grid-area: Ds;
+    }.Grid > li:nth-child(111) {
+        grid-area: Rg;
+    }.Grid > li:nth-child(112) {
+        grid-area: Cn;
+    }.Grid > li:nth-child(113) {
+        grid-area: Nh;
+    }.Grid > li:nth-child(114) {
+        grid-area: Fl;
+    }.Grid > li:nth-child(115) {
+        grid-area: Mc;
+    }.Grid > li:nth-child(116) {
+        grid-area: Lv;
+    }.Grid > li:nth-child(117) {
+        grid-area: Ts;
+    }.Grid > li:nth-child(118) {
+        grid-area: Og;
+    }.Grid > li:nth-child(119) {
+        grid-area: Uue;
+    }.Grid > li:nth-child(120) {
+        grid-area: Ubn;
+    }.Grid > li:nth-child(121) {
+        grid-area: Ubu;
+    }.Grid > li:nth-child(122) {
+        grid-area: Ubb;
+    }.Grid > li:nth-child(123) {
+        grid-area: Ubt;
+    }.Grid > li:nth-child(124) {
+        grid-area: Ubq;
+    }.Grid > li:nth-child(125) {
+        grid-area: Ubp;
+    }.Grid > li:nth-child(126) {
+        grid-area: Ubh;
+    }.Grid > li:nth-child(127) {
+        grid-area: Ubs;
+    }.Grid > li:nth-child(128) {
+        grid-area: Ubo;
+    }.Grid > li:nth-child(129) {
+        grid-area: Ube;
+    }.Grid > li:nth-child(130) {
+        grid-area: Utn;
+    }.Grid > li:nth-child(131) {
+        grid-area: Utu;
+    }.Grid > li:nth-child(132) {
+        grid-area: Utb;
+    }.Grid > li:nth-child(133) {
+        grid-area: Utt;
+    }.Grid > li:nth-child(134) {
+        grid-area: Utq;
+    }.Grid > li:nth-child(135) {
+        grid-area: Utp;
+    }.Grid > li:nth-child(136) {
+        grid-area: Uth;
+    }.Grid > li:nth-child(137) {
+        grid-area: Uts;
+    }.Grid > li:nth-child(138) {
+        grid-area: Uto;
+    }.Grid > li:nth-child(139) {
+        grid-area: Ute;
+    }.Grid > li:nth-child(140) {
+        grid-area: Uqn;
+    }.Grid > li:nth-child(141) {
+        grid-area: Uqu;
+    }.Grid > li:nth-child(142) {
+        grid-area: Uqb;
+    }.Grid > li:nth-child(143) {
+        grid-area: Uqt;
+    }.Grid > li:nth-child(144) {
+        grid-area: Uqq;
+    }.Grid > li:nth-child(145) {
+        grid-area: Uqp;
+    }.Grid > li:nth-child(146) {
+        grid-area: Uqh;
+    }.Grid > li:nth-child(147) {
+        grid-area: Uqs;
+    }.Grid > li:nth-child(148) {
+        grid-area: Uqo;
+    }.Grid > li:nth-child(149) {
+        grid-area: Uqe;
+    }.Grid > li:nth-child(150) {
+        grid-area: Upn;
+    }.Grid > li:nth-child(151) {
+        grid-area: Upu;
+    }.Grid > li:nth-child(152) {
+        grid-area: Upb;
+    }.Grid > li:nth-child(153) {
+        grid-area: Upt;
+    }.Grid > li:nth-child(154) {
+        grid-area: Upq;
+    }.Grid > li:nth-child(155) {
+        grid-area: Upp;
+    }.Grid > li:nth-child(156) {
+        grid-area: Uph;
+    }.Grid > li:nth-child(157) {
+        grid-area: Ups;
+    }.Grid > li:nth-child(158) {
+        grid-area: Upo;
+    }.Grid > li:nth-child(159) {
+        grid-area: Upe;
+    }.Grid > li:nth-child(160) {
+        grid-area: Uhn;
+    }.Grid > li:nth-child(161) {
+        grid-area: Uhq;
+    }.Grid > li:nth-child(162) {
+        grid-area: Uhp;
+    }.Grid > li:nth-child(163) {
+        grid-area: Uhs;
+    }.Grid > li:nth-child(164) {
+        grid-area: Uho;
+    }.Grid > li:nth-child(165) {
+        grid-area: Uhe;
+    }.Grid > li:nth-child(166) {
+        grid-area: Usb;
+    }.Grid > li:nth-child(167) {
+        grid-area: Ust;
+    }
+}
+
+@media all and (min-width: 1400px) {
+    .Grid {
+        grid-template-columns: repeat(32, 1fr);
+        grid-template-rows: auto;
+        grid-template-areas: 
+            'H  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  He'
+            'Li Be .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  B  C  N  O  F  Ne'
+            'Na Mg .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  Al Si P  S  Cl Ar'
+            'K  Ca .  .  .  .  .  .  .  .  .  .  .  .  .  .  Sc Ti V  Cr Mn Fe Co Ni Cu Zn Ga Ge As Se Br Kr'
+            'Rb Sr .  .  .  .  .  .  .  .  .  .  .  .  .  .  Y  Zr Nb Mo Tc Ru Rh Pd Ag Cd In Sn Sb Te I  Xe'
+            'Cs Ba La Ce Pr Nd Pm Sm Eu Gd Tb Dy Ho Er Tm Yb Lu Hf Ta W  Re Os Ir Pt Au Hg Tl Pb Bi Po At Rn'
+            'Fr Ra Ac Th Pa U  Np Pu Am Cm Bk Cf Es Fm Md No Lr Rf Db Sg Bh Hs Mt Ds Rg Cn Nh Fl Mc Lv Ts Og'
+            'Uue Ubn Ubu Ubb Ubt Ubq Ubp Ubh Ubs Ubo Ube Utn Utu Utb Utt Utq Utp Uth Uts Uto Ute Uqn Uqu Uqb Uqt Uqq Uqp Uqh Uqs Uqo Uqe Upn'
+            'Upu Upb Upt Upq Upp Uph Ups Upo Upe Uhn Uhq Uhp Uhs Uho Uhe Usb Ust .   .   .   .   .   .   .   .   .   .   .   .   .   .   .';
+    }
+}

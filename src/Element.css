@@ -29,3 +29,12 @@
         font-weight: bold;
     }
 }
+
+@media all and (min-width: 821px) {
+    .Element {
+        height: auto;
+    }
+    .Element > dl {
+        display: none;
+    }
+}
